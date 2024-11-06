@@ -1,0 +1,60 @@
+---
+title: "P8105_final_proposal"
+author: "Yujing FU"
+date: "2024-11-06"
+output: github_document
+---
+
+# Proposal for P8105
+
+## Group Members
+[Yujing Fu] (yf2735)
+[Meitong Zhou] (mz3084)
+[Hanrui Li] (hl3859)
+[Mingye Xie] (mx2286)
+[Zihan Zhao] (zz3166)
+
+## Project Title
+Analyzing Rat Activities in NYC: A Public Health and Environmental Study
+
+How rodent activities have influence on public health
+
+## Motivation
+Our project aims to investigate the correlation between rat activity and the distribution of food scrap drop-off locations across New York City. This research is motivated by the public health implications of rat infestations, which can pose health risks, and the potential for food scrap programs to influence pest activity. By analyzing these factors in relation to time, geography, and environmental variables, we hope to reveal patterns that could inform urban public health policies and environmental sustainability initiatives.
+
+## Intended Final Products
+Interactive Dashboards: Visual representations of rat activity and food scrap locations by neighborhood, with time-based filters.
+Statistical Report: A written analysis highlighting findings and insights derived from data analysis.
+Predictive Model: A model that estimates the likelihood of rat activity based on various environmental and socioeconomic factors.
+
+## Anticipated Data Sources
+Rodent Inspection Data: NYC Open Data - Rodent Inspection
+Food Scrap Drop-Off Locations: NYC Open Data - Food Scrap Drop-Off Locations
+Weather Data: NOAA for seasonal weather patterns
+Socioeconomic Data: ACS data for socioeconomic variables like income and population density
+Crime Data: NYC crime data to investigate potential correlations
+
+## Planned Analyses, Visualizations, and Coding Challenges
+Plot:
+时序分析：通过检查日期查看不同区域的鼠患情况变化。可以创建每月或每季度的趋势图，以识别高风险月份/周末和工作日对比
+地理分析：将检查数据映射到纽约市地图上，标出鼠患频发区域，找出是否有特定区域风险较高。
+时空分布图：展示不同时间段和不同区域的老鼠检测结果。使用纽约市的邮政编码或行政区划绘制热点地图（heatmap）或地理散点图，观察不同地区的老鼠活跃情况。
+按区域的统计表：例如按区（borough）、邮政编码、社区统计老鼠检测结果的通过率/失败率。
+Dashboard:
+时间序列图：对比不同时段的老鼠活动（通过结果的频率来表示）和食物废料回收站的开放时间是否有显著相关性。
+
+
+回归模型一：老鼠活动与回收站的关系
+使用老鼠检查结果为因变量，回收站开放时间、回收站密度（在给定邮政编码区域内的回收站数量）和其他变量作为自变量，建立一个回归模型，查看食物废料回收站的密度和开放情况是否对老鼠活动有显著影响。
+
+回归模型二：季节性趋势对老鼠活动的影响
+使用时间序列数据，尝试加入季度、月份等时间变量，分析不同季节或月份是否对老鼠活动的频率有显著影响。这可以揭示季节性对老鼠问题的影响。
+
+回归模型三：社会经济因素与老鼠活动
+若能结合社会经济数据集（例如房屋收入、租金、人口密度），可以将这些变量引入模型，分析社会经济因素是否与老鼠活跃程度相关。可能的数据源：
+## Planned Timeline
+Weeks 1-2: Data Collection and Preprocessing
+Weeks 3-4: Initial Analysis and Exploratory Data Visualization
+Weeks 5-6: Regression Modeling and Statistical Testing
+Weeks 7-8: Dashboard Development and Final Visualizations
+Weeks 9-10: Final Report and Presentation Preparation
