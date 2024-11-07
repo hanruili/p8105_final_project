@@ -28,11 +28,19 @@ Statistical Report: A written analysis highlighting findings and insights derive
 Predictive Model: A model that estimates the likelihood of rat activity based on various environmental and socioeconomic factors.
 
 ## Anticipated Data Sources
-Rodent Inspection Data: NYC Open Data - Rodent Inspection
-Food Scrap Drop-Off Locations: NYC Open Data - Food Scrap Drop-Off Locations
-Weather Data: NOAA for seasonal weather patterns
-Socioeconomic Data: ACS data for socioeconomic variables like income and population density
-Crime Data: NYC crime data to investigate potential correlations
+All data for this analysis covers the period from January 2020 to August 2024, aligning with our research focus and ensuring consistency across datasets.<br>
+
+1. **Rodent Inspection Data in NYC**: Provides detailed records of rodent inspection results across New York City, is the main dataset of our study.<br>
+   [Data Source](https://data.cityofnewyork.us/Health/Rodent-Inspection/p937-wjvj/about_data)
+
+2. **Food Scrap Drop-Off Locations in NYC**: Details the locations for food scrap drop-off points across NYC neighborhoods, allowing us to analyze their correlation with rat activity patterns.<br>
+   [Data Source](https://data.cityofnewyork.us/Environment/Food-Scrap-Drop-Off-Locations-in-NYC/if26-z6xq/about_data)
+
+3. **Socioeconomic Data**:
+   - **Zillow Observed Rent Index (ZORI)**: Measures typical observed market rent across NYC, which helps in understanding how rent levels might relate to rat activity in various neighborhoods. ZORI captures rental trends in a repeat-rent index, reflecting the overall rental market. <br>
+     [Data Source](https://www.zillow.com/research/data/)
+   - **Zillow Home Value Index (ZHVI)**: Reflects typical home values across regions, showing property values and their changes in different neighborhoods.<br>
+     [Data Source](https://www.zillow.com/research/data/)
 
 ## Planned Analyses, Visualizations, and Coding Challenges
 Plot:
