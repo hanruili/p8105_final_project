@@ -42,24 +42,50 @@ All data for this analysis covers the period from January 2020 to August 2024, a
    - **Zillow Home Value Index (ZHVI)**: Reflects typical home values across regions, showing property values and their changes in different neighborhoods.<br>
      [Data Source](https://www.zillow.com/research/data/)
 
+
 ## Planned Analyses, Visualizations, and Coding Challenges
-Plot:
-时序分析：通过检查日期查看不同区域的鼠患情况变化。可以创建每月或每季度的趋势图，以识别高风险月份/周末和工作日对比
-地理分析：将检查数据映射到纽约市地图上，标出鼠患频发区域，找出是否有特定区域风险较高。
-时空分布图：展示不同时间段和不同区域的老鼠检测结果。使用纽约市的邮政编码或行政区划绘制热点地图（heatmap）或地理散点图，观察不同地区的老鼠活跃情况。
-按区域的统计表：例如按区（borough）、邮政编码、社区统计老鼠检测结果的通过率/失败率。
-Dashboard:
-时间序列图：对比不同时段的老鼠活动（通过结果的频率来表示）和食物废料回收站的开放时间是否有显著相关性。
+
+**Data Analysis**
+
+Time Series Analysis: Analyze rat activity over time by examining inspection data on a monthly or quarterly basis. Create trend charts to identify high-risk months and compare weekday versus weekend patterns.
+
+Geographic Analysis: Map inspection data across NYC to highlight areas with high rat activity.
+
+Regression Model: We hypothesized that rat activity would be associated with food scrap drop-off location, seasonal variation, and socioeconomic factors. To test our hypothesis, we planned to use regression analysis to explore the associations between food scrap drop-off, seasonal variation, socioeconomic factors, and rat activity.
+
+**Visualizations**
+
+We plan to use both plot/table and dashboard.
+
+*PLOT/TABLE*
+
+Statistical table by area:
+Summarize the frequency of rodent activity and distribution of food scrap drop-off in different boroughs (eg Manhattan, Brooklyn, etc.)
+
+Time period table by season:
+Displays rodent activity data in different seasons (spring, summer, fall, winter), and counts inspection results by month.
+
+Statistical table by socioeconomic factors:
+Combined with socioeconomic data (such as rent, and housing price, etc.) to count rat infestation activities by region.
+
+*DASHBOARD*
+
+Heatmap of Rodent Activity:
+Map rodent activity inspection data onto a map of NYC to create a heatmap or scatter plot to show the geographic distribution of rodent activity and identify high-risk areas.
+
+Rodent Activity Over Time:
+Show a time series plot of rodent activity, showing the pass/fail rate of rodent inspections by month or quarter to observe trends in rodent activity over time to see if there are seasonal or long-term trends.
+
+Rodent activity and socioeconomic factors:
+Generate a scatter plot or bar chart showing the relationship between socioeconomic factors and rodent activity frequency.
+
+**Coding Challenges**
+
+First of all, the amount of data about Rodent inspection is huge, with more than 2.6 million data points. We predicted that it would be difficult to organize this huge database. At the same time, we will use multiple databases to merge. How to merge the multiple databases one by one is also a difficulty we need to overcome.
+
+Secondly, in this study, we may use regression analysis, but we may encounter multicollinearity problems in the process, which requires us to think about reasonable optimization methods.
 
 
-回归模型一：老鼠活动与回收站的关系
-使用老鼠检查结果为因变量，回收站开放时间、回收站密度（在给定邮政编码区域内的回收站数量）和其他变量作为自变量，建立一个回归模型，查看食物废料回收站的密度和开放情况是否对老鼠活动有显著影响。
-
-回归模型二：季节性趋势对老鼠活动的影响
-使用时间序列数据，尝试加入季度、月份等时间变量，分析不同季节或月份是否对老鼠活动的频率有显著影响。这可以揭示季节性对老鼠问题的影响。
-
-回归模型三：社会经济因素与老鼠活动
-若能结合社会经济数据集（例如房屋收入、租金、人口密度），可以将这些变量引入模型，分析社会经济因素是否与老鼠活跃程度相关。可能的数据源：
 ## Planned Timeline
 Weeks 1-2: Data Collection and Preprocessing
 Weeks 3-4: Initial Analysis and Exploratory Data Visualization
