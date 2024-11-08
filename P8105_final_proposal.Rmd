@@ -63,7 +63,7 @@ Spatiotemporal Distribution: Develop an animated map to show changes in rodent a
 
 We plan to use both plot/table and dashboard.
 
-*PLOT/TABLE*
+*Plot/table*
 
 Statistical table by area:
 Summarize the frequency of rodent activity and distribution of food scrap drop-off in different boroughs (eg Manhattan, Brooklyn, etc.)
@@ -74,7 +74,7 @@ Displays rodent activity data in different seasons (spring, summer, fall, winter
 Statistical table by socioeconomic factors:
 Combined with socioeconomic data (such as rent, and housing price, etc.) to count rat infestation activities by region.
 
-*DASHBOARD*
+*Dashboard*
 
 Heatmap of Rodent Activity:
 Map rodent activity inspection data onto a map of NYC to create a heatmap or scatter plot to show the geographic distribution of rodent activity and identify high-risk areas.

@@ -98,7 +98,7 @@ evolves monthly or quarterly in different regions.
 
 We plan to use both plot/table and dashboard.
 
-*PLOT/TABLE*
+*Plot/table*
 
 Statistical table by area: Summarize the frequency of rodent activity
 and distribution of food scrap drop-off in different boroughs (eg
@@ -112,7 +112,7 @@ Statistical table by socioeconomic factors: Combined with socioeconomic
 data (such as rent, and housing price, etc.) to count rat infestation
 activities by region.
 
-*DASHBOARD*
+*Dashboard*
 
 Heatmap of Rodent Activity: Map rodent activity inspection data onto a
 map of NYC to create a heatmap or scatter plot to show the geographic
