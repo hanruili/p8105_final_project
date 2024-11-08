@@ -141,46 +141,27 @@ to think about reasonable optimization methods.
 
 ## Planned Timeline
 
-### Week 1: Data Exploration and Cleaning
+### Nov. 8 - Nov. 11: Data Exploration and Cleaning
 
-- Load, inspect, and clean the rodent inspection dataset and additional
-  datasets (food scrap drop-off locations, socioeconomic data).
-- Address missing values, duplicates, and any inconsistencies.
-- Document initial observations, with a focus on understanding key
-  variables like inspection type, results, and location data.
+- Load, inspect, and clean the rodent inspection dataset along with
+  additional datasets (food scrap drop-off locations, socioeconomic
+  data).
 
-### Week 2: Exploratory Data Analysis (EDA)
+### Nov. 11 - Nov. 15: Exploratory Data Analysis (EDA)
 
-- Conduct EDA to identify patterns in inspection types, outcomes, and
+- Conduct a project review meeting.
+- Perform EDA to identify patterns in inspection types, outcomes, and
   distributions across boroughs.
-- Generate visualizations to illustrate inspection frequency by
-  neighborhood, season, and other time-based trends.
 
-### Week 3: Geospatial and Time Series Analysis
+### Nov. 15 - Nov. 27: Further Analysis
 
-- Map rodent activity data across NYC to identify geographical hotspots.
-- Perform time series analysis to examine rodent activity trends on a
-  monthly and seasonal basis.
-- Create visualizations to showcase patterns in rodent inspections over
-  time.
+- Conduct geospatial and time series analyses.
+- Develop a regression model to explore relationships between rodent
+  activity, environmental factors, and socioeconomic data.
+- Begin building interactive dashboards.
 
-### Week 4: Regression Modeling
+### Nov. 27 - Dec. 7: Final Report and Dashboard Development
 
-- Develop a regression model to test the associations between rodent
-  activity and variables like food scrap drop-off locations, seasonal
-  changes, and socioeconomic factors.
-- Address multicollinearity in the regression model to ensure
-  robustness.
-- Document model findings, focusing on predictive insights about
-  high-risk areas and factors influencing rodent activity.
-
-### Week 5: Final Report and Dashboard Development
-
-- Summarize findings in a comprehensive statistical report, highlighting
-  key insights and recommendations for public health policy and pest
-  control strategies.
-- Finalize interactive dashboards to visualize rodent activity,
-  geographic distribution, and socioeconomic correlations, making the
-  analysis accessible and user-friendly.
-- Ensure all deliverables are thoroughly reviewed and polished for
-  submission.
+- Summarize findings and complete the final report.
+- Finalize the project webpage.
+- Record and publish an explanatory video online.
