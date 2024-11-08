@@ -57,8 +57,6 @@ Geographic Analysis: Map inspection data across NYC to highlight areas with high
 
 Regression Model: We hypothesized that rat activity would be associated with food scrap drop-off location, seasonal variation, and socioeconomic factors. To test our hypothesis, we planned to use regression analysis to explore the associations between food scrap drop-off, seasonal variation, socioeconomic factors, and rat activity.
 
-Spatiotemporal Distribution: Develop an animated map to show changes in rodent activity over time across NYC neighborhoods. This will reveal spatiotemporal patterns, making it easier to see how rodent activity evolves monthly or quarterly in different regions.
-
 **Visualizations**
 
 We plan to use both plot/table and dashboard.
