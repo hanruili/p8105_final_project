@@ -1,6 +1,5 @@
 ---
 title: "P8105_final_proposal"
-author: "Yujing FU"
 date: "2024-11-06"
 output: github_document
 ---

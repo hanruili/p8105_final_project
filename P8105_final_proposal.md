@@ -1,6 +1,5 @@
 P8105_final_proposal
 ================
-Yujing FU
 2024-11-06
 
 # Proposal for P8105
